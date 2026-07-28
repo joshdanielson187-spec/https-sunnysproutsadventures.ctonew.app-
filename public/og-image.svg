@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD93D"/>
+      <stop offset="50%" stop-color="#FF9A76"/>
+      <stop offset="100%" stop-color="#FFB5C5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bgGrad)"/>
+
+  <!-- Decorative dots -->
+  <circle cx="100" cy="100" r="15" fill="white" opacity="0.3"/>
+  <circle cx="1100" cy="80" r="20" fill="white" opacity="0.25"/>
+  <circle cx="1050" cy="550" r="18" fill="white" opacity="0.2"/>
+  <circle cx="150" cy="520" r="12" fill="white" opacity="0.2"/>
+  <circle cx="600" cy="570" r="10" fill="white" opacity="0.15"/>
+
+  <!-- Central Sun Logo -->
+  <g transform="translate(200, 315)">
+    <!-- Sun glow -->
+    <circle cx="0" cy="0" r="160" fill="white" opacity="0.15"/>
+    <circle cx="0" cy="0" r="120" fill="white" opacity="0.1"/>
+
+    <!-- Sun rays -->
+    <g stroke="#FFD93D" stroke-width="8" stroke-linecap="round">
+      <line x1="0" y1="-140" x2="0" y2="-170"/>
+      <line x1="0" y1="140" x2="0" y2="170"/>
+      <line x1="-140" y1="0" x2="-170" y2="0"/>
+      <line x1="140" y1="0" x2="170" y2="0"/>
+      <line x1="-99" y1="-99" x2="-120" y2="-120"/>
+      <line x1="99" y1="99" x2="120" y2="120"/>
+      <line x1="99" y1="-99" x2="120" y2="-120"/>
+      <line x1="-99" y1="99" x2="-120" y2="120"/>
+    </g>
+
+    <!-- Sun body -->
+    <circle cx="0" cy="0" r="100" fill="#FFD93D" stroke="white" stroke-width="4"/>
+
+    <!-- Eyes -->
+    <circle cx="-30" cy="-15" r="12" fill="#8B6914"/>
+    <circle cx="30" cy="-15" r="12" fill="#8B6914"/>
+    <!-- Eye sparkle -->
+    <circle cx="-27" cy="-18" r="4" fill="white" opacity="0.7"/>
+    <circle cx="33" cy="-18" r="4" fill="white" opacity="0.7"/>
+
+    <!-- Smile -->
+    <path d="M-25 20 Q0 55 25 20" fill="none" stroke="#8B6914" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- Rosy cheeks -->
+    <circle cx="-50" cy="5" r="15" fill="#FFB5C5" opacity="0.5"/>
+    <circle cx="50" cy="5" r="15" fill="#FFB5C5" opacity="0.5"/>
+
+    <!-- Sprouts at bottom of sun -->
+    <path d="M-15 90 Q-12 65 -5 50" fill="none" stroke="#7BC67E" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="-6" cy="48" rx="10" ry="7" fill="#7BC67E"/>
+    <path d="M15 90 Q12 65 5 50" fill="none" stroke="#7BC67E" stroke-width="5" stroke-linecap="round"/>
+    <ellipse cx="6" cy="48" rx="10" ry="7" fill="#7BC67E"/>
+  </g>
+
+  <!-- Text content -->
+  <g transform="translate(450, 240)">
+    <!-- Title -->
+    <text x="0" y="0" font-family="Fredoka, Nunito, sans-serif" font-weight="700" font-size="58" fill="#4A3728">
+      Sunny Sprouts
+    </text>
+    <text x="0" y="55" font-family="Fredoka, Nunito, sans-serif" font-weight="600" font-size="38" fill="#5D4037">
+      Adventures
+    </text>
+
+    <!-- Tagline -->
+    <text x="0" y="110" font-family="Nunito, sans-serif" font-weight="600" font-size="26" fill="#4A3728" opacity="0.85">
+      Sing, Learn &amp; Grow Together!
+    </text>
+
+    <!-- Description -->
+    <text x="0" y="155" font-family="Nunito, sans-serif" font-weight="500" font-size="18" fill="#5D4037" opacity="0.7">
+      Original nursery rhymes, educational songs, and
+    </text>
+    <text x="0" y="180" font-family="Nunito, sans-serif" font-weight="500" font-size="18" fill="#5D4037" opacity="0.7">
+      preschool activities for children ages 2–6.
+    </text>
+  </g>
+
+  <!-- URL at bottom -->
+  <text x="600" y="600" text-anchor="middle" font-family="Nunito, sans-serif" font-weight="500" font-size="16" fill="#5D4037" opacity="0.5">
+    sunnysproutsadventures.ctonew.app
+  </text>
+</svg>
